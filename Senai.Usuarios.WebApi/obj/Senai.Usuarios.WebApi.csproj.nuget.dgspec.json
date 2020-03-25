@@ -1,33 +1,29 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Documents\\Angular\\challengers_user\\Senai.Usuarios.WebApi\\Senai.Usuarios.WebApi.csproj": {}
+    "/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Senai.Usuarios.WebApi.csproj": {}
   },
   "projects": {
-    "E:\\Documents\\Angular\\challengers_user\\Senai.Usuarios.WebApi\\Senai.Usuarios.WebApi.csproj": {
+    "/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Senai.Usuarios.WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Documents\\Angular\\challengers_user\\Senai.Usuarios.WebApi\\Senai.Usuarios.WebApi.csproj",
+        "projectUniqueName": "/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Senai.Usuarios.WebApi.csproj",
         "projectName": "Senai.Usuarios.WebApi",
-        "projectPath": "E:\\Documents\\Angular\\challengers_user\\Senai.Usuarios.WebApi\\Senai.Usuarios.WebApi.csproj",
-        "packagesPath": "C:\\Users\\CleAurora\\.nuget\\packages\\",
-        "outputPath": "E:\\Documents\\Angular\\challengers_user\\Senai.Usuarios.WebApi\\obj\\",
+        "projectPath": "/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Senai.Usuarios.WebApi.csproj",
+        "packagesPath": "/Users/cleisaurorapereira/.nuget/packages/",
+        "outputPath": "/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\CleAurora\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "/Users/cleisaurorapereira/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Users\\CleAurora\\Telerik\\packages": {},
+          "http://nuget.intelitrader.com.br:5080/": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -105,7 +101,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
         }
       }
     }

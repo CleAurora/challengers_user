@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{47EEDB84-A9AC-4644-9D84-9158AF2CE32D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Contexts/UsuarioContext.cs">
+    <Files>
+      <File FileName="Controllers/UsuariosController.cs" Line="15" Column="6" />
+      <File FileName="Domains/Habilidades.cs" Line="7" Column="6" />
+      <File FileName="Domains/Perfis.cs" Line="1" Column="1" />
+      <File FileName="Domains/Profissoes.cs" Line="1" Column="1" />
+      <File FileName="Domains/Usuarios.cs" Line="1" Column="1" />
+      <File FileName="Interfaces/IHabilidadeRepository.cs" Line="1" Column="1" />
+      <File FileName="Interfaces/IProfissaoRepository.cs" Line="1" Column="1" />
+      <File FileName="Interfaces/IUsuarioRepository.cs" Line="1" Column="1" />
+      <File FileName="Contexts/UsuarioContext.cs" Line="22" Column="30" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Senai.Usuarios.WebApi" expanded="True">
+            <Node name="Senai.Usuarios.WebApi" expanded="True">
+              <Node name="Contexts" expanded="True">
+                <Node name="UsuarioContext.cs" selected="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Domains" expanded="True" />
+              <Node name="Interfaces" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Senai.Users.WebApi PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

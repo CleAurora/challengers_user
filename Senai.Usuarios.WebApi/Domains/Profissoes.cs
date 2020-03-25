@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Senai.Usuarios.WebApi.Domains
+namespace Senai.Users.WebApi.Domains
 {
     public partial class Profissoes
     {

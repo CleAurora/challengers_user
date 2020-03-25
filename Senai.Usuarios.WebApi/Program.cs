@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace Senai.Usuarios.WebApi
+namespace Senai.Users.WebApi
 {
     public class Program
     {

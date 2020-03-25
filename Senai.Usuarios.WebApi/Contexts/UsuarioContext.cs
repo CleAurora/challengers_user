@@ -1,9 +1,9 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Senai.Usuarios.WebApi.Domains;
+using Senai.Users.WebApi.Domains;
 
-namespace Senai.Usuarios.WebApi.Contexts
+namespace Senai.Users.WebApi.Contexts
 {
     public partial class UsuarioContext : DbContext
     {

@@ -18,6 +18,19 @@
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.2.1" />
     <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="5.6.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.1" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Interfaces\" />
+    <Folder Include="Repositories\" />
+    <Folder Include="ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Views\Habilidades\Create.cshtml" />
+    <Content Remove="Views\Habilidades\Edit.cshtml" />
+    <Content Remove="Views\Habilidades\Details.cshtml" />
+    <Content Remove="Views\Habilidades\Delete.cshtml" />
+    <Content Remove="Views\Habilidades\Index.cshtml" />
+  </ItemGroup>
 </Project>
