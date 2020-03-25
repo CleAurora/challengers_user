@@ -156,3 +156,5 @@
 /Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/bin/Debug/netcoreapp3.1/runtimes/win-arm64/native/e_sqlite3.dll
 /Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/bin/Debug/netcoreapp3.1/runtimes/win-x64/native/e_sqlite3.dll
 /Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/bin/Debug/netcoreapp3.1/runtimes/win-x86/native/e_sqlite3.dll
+/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/obj/Debug/netcoreapp3.1/staticwebassets/Senai.Users.WebApi.StaticWebAssets.Manifest.cache
+/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/obj/Debug/netcoreapp3.1/staticwebassets/Senai.Users.WebApi.StaticWebAssets.xml
