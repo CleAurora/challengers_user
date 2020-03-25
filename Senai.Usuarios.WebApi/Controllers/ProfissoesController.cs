@@ -19,14 +19,12 @@ namespace Senai.Users.WebApi.Controllers
             ProfissaoRepository = new ProfissaoRepository();
         }
 
-        [Authorize]
         [HttpGet]
         public IActionResult Listar()
         {
             return Ok(ProfissaoRepository.Listar());
         }
 
-        [Authorize]
         [HttpGet ("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -43,7 +41,6 @@ namespace Senai.Users.WebApi.Controllers
             }
         }
 
-        [Authorize]
         [HttpPost]
         public IActionResult Cadastrar(Profissoes profissao)
         {
@@ -59,8 +56,7 @@ namespace Senai.Users.WebApi.Controllers
             }
         }
 
-        [Authorize]
-        [HttpPut]
+        [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Profissoes profissao)
         {
             try
@@ -79,8 +75,7 @@ namespace Senai.Users.WebApi.Controllers
             }
         }
 
-        [Authorize]
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {
             try

@@ -19,7 +19,6 @@ namespace Senai.Users.WebApi.Controllers
             UsuarioRepository = new UsuarioRepository();
         }
 
-        [Authorize(Roles = "Administrador")]
         [HttpGet]
         public IActionResult Listar()
         {
@@ -27,7 +26,6 @@ namespace Senai.Users.WebApi.Controllers
         }
 
         [HttpGet("{id}")]
-        [Authorize]
         public IActionResult BuscarPorId (int id)
         {
             try
@@ -44,7 +42,6 @@ namespace Senai.Users.WebApi.Controllers
         }
 
         [HttpPost("CadastrarFuncionario")]
-        [Authorize]
         public IActionResult CadastrarFuncionario(Usuarios usuario)
         {
             try
@@ -60,7 +57,6 @@ namespace Senai.Users.WebApi.Controllers
         }
 
         [HttpPost]
-        [Authorize (Roles = "Administrador")]
         public IActionResult Cadastrar(Usuarios usuario)
         {
             try
@@ -74,8 +70,7 @@ namespace Senai.Users.WebApi.Controllers
             }
         }
 
-        [HttpPut]
-        [Authorize]
+        [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuarios usuario)
         {
             try
@@ -94,9 +89,8 @@ namespace Senai.Users.WebApi.Controllers
             }
         }
 
-        [HttpDelete]
-        [Authorize (Roles = "Administrador")]
-        public IActionResult Deletar(int id)
+        [HttpDelete("{id}")]
+         public IActionResult Deletar(int id)
         {
             try
             {

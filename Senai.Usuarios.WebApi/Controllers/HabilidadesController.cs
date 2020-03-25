@@ -19,7 +19,6 @@ namespace Senai.Users.WebApi.Controllers
             HabilidadeRepository = new HabilidadeRepository();
         }
 
-        [Authorize]
         [HttpGet]
         public IActionResult Listar()
         {
@@ -27,7 +26,6 @@ namespace Senai.Users.WebApi.Controllers
         }
 
         [HttpGet("id")]
-        [Authorize]
         public IActionResult BuscarPorId(int id)
         {
             try
@@ -44,7 +42,6 @@ namespace Senai.Users.WebApi.Controllers
         }
 
         [HttpPost]
-        [Authorize]
         public IActionResult Cadastrar(Habilidades habilidade)
         {
             try
@@ -58,8 +55,7 @@ namespace Senai.Users.WebApi.Controllers
             }
         }
 
-        [HttpPut]
-        [Authorize]
+        [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Habilidades habilidade)
         {
             try
@@ -79,7 +75,6 @@ namespace Senai.Users.WebApi.Controllers
         }
 
         [HttpDelete("{id}")]
-        [Authorize(Roles = "Administrador")]
         public IActionResult Deletar(int id)
         {
             try
