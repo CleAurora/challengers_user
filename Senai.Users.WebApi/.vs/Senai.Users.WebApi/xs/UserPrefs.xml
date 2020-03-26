@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{47EEDB84-A9AC-4644-9D84-9158AF2CE32D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/3.1.101/Sdks/Microsoft.NET.Sdk.Razor/build/netstandard2.0/Sdk.Razor.CurrentVersion.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
     <Files>
       <File FileName="Controllers/HabilidadesController.cs" Line="97" Column="1" />
-      <File FileName="Controllers/ProfissoesController.cs" />
       <File FileName="Controllers/UsuariosController.cs" />
       <File FileName="Repositories/UsuarioRepository.cs" />
-      <File FileName="Startup.cs" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/3.1.101/Sdks/Microsoft.NET.Sdk.Razor/build/netstandard2.0/Sdk.Razor.CurrentVersion.targets" Line="398" Column="1" />
-      <File FileName="Contexts/UsuarioContext.cs" />
+      <File FileName="Startup.cs" Line="70" Column="26" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/3.1.101/Sdks/Microsoft.NET.Sdk.Razor/build/netstandard2.0/Sdk.Razor.CurrentVersion.targets" Line="411" Column="96" />
+      <File FileName="Contexts/UsuarioContext.cs" Line="30" Column="1" />
+      <File FileName="Program.cs" Line="16" Column="1" />
+      <File FileName="Controllers/LoginController.cs" Line="22" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,13 +17,12 @@
             <Node name="Senai.Users.WebApi" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="FrameworkReferences" expanded="True" />
-                <Node name="PackageDependencies" expanded="True">
-                  <Node name="Microsoft.AspNetCore.Razor.Design" selected="True" />
-                </Node>
+                <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Contexts" expanded="True" />
               <Node name="Controllers" expanded="True" />
               <Node name="Repositories" expanded="True" />
+              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
@@ -33,7 +33,11 @@
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
+    <BreakpointStore>
+      <Breakpoint file="/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Contexts/UsuarioContext.cs" relfile="Contexts/UsuarioContext.cs" line="29" column="1" />
+      <Breakpoint file="/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Controllers/LoginController.cs" relfile="Controllers/LoginController.cs" line="28" column="1" />
+      <Breakpoint file="/Users/cleisaurorapereira/Angular/challengers_user/Senai.Usuarios.WebApi/Controllers/LoginController.cs" relfile="Controllers/LoginController.cs" line="22" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />
 </Properties>
