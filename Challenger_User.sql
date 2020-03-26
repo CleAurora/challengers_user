@@ -38,10 +38,26 @@ create table Usuarios
 insert into Perfis(Nome)
 values ('Administrador'), ('Cliente');
 
+select * from Usuarios
 select * from Perfis
 select * from Profissoes
 select * from Habilidades
-select * from Usuarios
+
+/*DML*/
+
+insert into Profissoes(Nome)
+values ('Desenvolvedor FrontEnt JS'), 
+('Desenvolvedor BackEnd'), 
+('Desenvolvedor iOS');
+
+insert into Habilidades (Nome)
+values ('Comunicação'), ('Liderança');
+
+insert into Usuarios(Nome, Email, Senha, SitePessoal, Imagem, IdProfissao, IdPerfil)
+values	('Erik', 'erik@gmail.com', '6ED5833CF35286EBF8662B7B5949F0D742BBEC3F', 'https://www.linkedin.com/in/erik-vitelli/', 'https://media-exp1.licdn.com/dms/image/C4D03AQGRui2aMUIQUA/profile-displayphoto-shrink_800_800/0?e=1590624000&v=beta&t=4K9qREMQVriic-QnXWPSdZjIVP4oHWyDCgGX0kyAAME', 3, 1 ),
+		('Ryan', 'ryan@gmail.com', '6ED5833CF35286EBF8662B7B5949F0D742BBEC3F', 'https://www.linkedin.com/in/ryan-freitas-0227b3144/', 'https://media-exp1.licdn.com/dms/image/C4E03AQFtfq0MJgnbBQ/profile-displayphoto-shrink_800_800/0?e=1590624000&v=beta&t=dvtojZHgJfM-6liS7IvfCJ1NE6L1h-tjs2c_6YxXrfQ', 2, 2 );
+
+
 
 
 
