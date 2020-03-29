@@ -1,0 +1,91 @@
+/*css navbar para todas as telas*/
+
+.navbar {
+    display: flex;
+    background-color: #fff;
+    text-align: center;
+    justify-content: end; 
+}
+
+/*css h1 para tela Home*/
+
+h1{
+    background: #000;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+/*css footer para todas as telas*/
+
+footer{
+    text-align: center;
+}
+
+
+
+/*css tela de cadaatro de Usuário e de login*/
+.cadastroPrincipal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgFamiliaFundo{
+    width: 55%;
+}
+
+.conteudoPrincipal{
+    background-color:  rgb(69, 125, 245);
+    padding: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: rgb(69, 125, 245);
+    padding: 30px;
+}
+
+.container input{
+    padding: 10px 140px 10px 10px;
+    margin: 10px;
+}
+
+.container button{
+    padding: 10px 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.conteudoPrincipalCadastroUsuarioComun{
+  
+    display: flex;
+    justify-content: space-around;
+}
+
+/*css da tela de administrador*/
+.telaFundo{
+    width: 100%;
+}
+
+.containerAdmin{
+    display: flex;
+    flex-direction: row;
+    width: 96.7%;
+    justify-content: center;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 40px;
+
+}
+
+.containerAdmin select{
+    padding: 10px 140px 10px 10px;
+}
+
+.conteudoPrincipalTelaInicial{
+    display: flex;
+    justify-content: space-around;
+}

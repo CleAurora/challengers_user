@@ -8,7 +8,7 @@ import { Statistic } from './statistic';
 const httpOptions = {
   headers: new HttpHeaders({'Content-Type': 'application/json'})
 };
-const apiUrl = '/api/';
+const apiUrl = 'http://localhost:3000/api/';
 
 @Injectable({
   providedIn: 'root'
